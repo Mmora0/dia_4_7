@@ -1,13 +1,41 @@
 /*
 Esta es la paleta de colores del proyecto:
-principal:
-secundario:
-terciario:
-light:
-heavy:
-background:
+principal:   #592f61
+secundario:  #8d376c
+terciario:   #d24878
+light:       #ffb595
+heavy:       #ff778b
+background:  #ffd8ea
 */
 
 .body1{
-    
+    background-color: #ffd8ea;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.bienvenida{
+    color: #592f61;
+    font-family: 'Viga', sans-serif;
+}
+.presentado{
+    color: #d24878;
+    font-family: 'Viga', sans-serif;
+}
+.parrafo{
+    color: #8d376c;
+    font-family: 'Viga', sans-serif;
+}
+.sesion{
+    color: #ff778b;
+}
+.lista{
+    color: #ff778b;
+    font-size: 130%;
+    font-family: 'Kanit', sans-serif;
+}
+.text-boton{
+    background-color: #ffb595;
+    font-family: 'Kanit', sans-serif;
 }
